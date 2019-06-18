@@ -12,6 +12,7 @@
     * Prerequisites/dependencies
         * cstdlib, cstdio, iostream, sys/time.h, omp.h
     * Instructions for building the software
-        * icpc -qopenmp -O3 gol.cpp -o gol
+        * g++ -fopenmp -O3 gol.cpp -o gol
+        * ./gol (N) (max generations) (num procs)
 6. Contact Information
     * johnds39@uab.edu
